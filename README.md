@@ -9,35 +9,35 @@ REST API и коллекцию /user/, хранящую данные о логи
 
 Успешная регистрация пользователя:
 
-![screenshot](screenshots\1.jpg)
+![screenshot](screenshots/1.jpg)
 
 Попытка регистрации уже существующего пользователя:
 
-![screenshot](screenshots\2.jpg)
+![screenshot](screenshots/2.jpg)
 
 Успешный вход в систему:
 
-![screenshot](screenshots\3.jpg)
+![screenshot](screenshots/3.jpg)
 
 Попытка входа в систему по несуществующему логину:
 
-![screenshot](screenshots\4.jpg)
+![screenshot](screenshots/4.jpg)
 
 Попытка входа в систему по неправильному паролю:
 
-![screenshot](screenshots\5.jpg)
+![screenshot](screenshots/5.jpg)
 
 Хранение пароля в хешированном виде:
 
-![screenshot](screenshots\6.jpg)
+![screenshot](screenshots/6.jpg)
 
 2.Настройте веб-сервер по Вашему выбору (Apache2 или nginx) таким образом, чтобы он поддерживал соединение по протоколу
 HTTPS. Для этого сгенирируйте самоподписанный сертификат SSL.
 
-![screenshot](screenshots\7.jpg)
+![screenshot](screenshots/7.jpg)
 
-![screenshot](screenshots\8.jpg)
+![screenshot](screenshots/8.jpg)
 
 3.Модифицируйте код вашего сервиса таким образом, чтобы он поддерживал защищенное соединение.
 
-![screenshot](screenshots\9.jpg)
+![screenshot](screenshots/9.jpg)
